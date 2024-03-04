@@ -8,6 +8,13 @@ jobs:
     name: Job1
     steps: []
     subgraphs: []
+  Job-5:
+    excludeSelector: ""
+    id: 5
+    includeSelector: "+{ location: TARGET name: STG_PARTSUPP_SUPPLIER }"
+    name: Demo Job
+    steps: []
+    subgraphs: []
 locations:
   SOURCE:
     mappingDefinitions:
